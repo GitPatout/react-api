@@ -1,10 +1,18 @@
-.App {
-  text-align: center;
+ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li{
+  display: flex;
+  flex-direction: column;
+  border: solid 1px rgb(56, 55, 55);
+  border-radius: 20px;
+}
+img{
+  border-radius: 20px;
+  width:auto;
+  height: 150px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
